@@ -1,0 +1,23 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.row{
+    background:#372948;
+    padding:20px;
+    border:3px solid #aaa;
+}
+
+h1 ,h2{
+    color:#fff;
+}
+p{
+    color:#fff;
+}
+.contenedor{
+    width: auto;
+}
+.bloque1 , .bloque2{
+    display: inline-block;
+    text-align: justify;
+}
+.img-proyecto{
+    box-shadow:10px 10px 30px  #000000;
+}

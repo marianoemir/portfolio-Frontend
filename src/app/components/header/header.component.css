@@ -1,0 +1,64 @@
+div{
+    background-color:#251B37;
+    ;
+}
+.container{
+   display:flex;   
+   justify-content:space-between;
+   align-items:center;
+}
+
+/*Logo Argentina Programa*/
+#logoAP{
+    width: 120px;
+}
+/*Estilo de Frase*/
+#frase {
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+    animation: typing 2s steps(12),blink .5s infinite step-end alternate;
+    overflow:hidden;
+    color:white;
+    font-size: 20px;
+    user-select:none;
+    float: left;
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+ @keyframes blink {
+    50%{border-color:transparent}
+}
+.redes{
+  margin-right: 0.5em;
+}
+.redes img{ 
+    width: 50px;
+}
+
+.btn{
+  border-width: medium;
+}
+
+
+.icongithub{
+  padding:5px;
+}
+/*Vista para celular*/
+@media (max-width:575px){
+  .container{
+    flex-direction: column;
+  }
+  .redes{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .redes img{
+    margin:0.2em;
+  }
+}

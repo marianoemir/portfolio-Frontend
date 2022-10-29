@@ -1,0 +1,37 @@
+.row{
+    background:#372948;
+    border:3px solid #aaa;
+    padding:20px;
+}
+.botonpersona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nombre{
+    font-weight: bold;
+    font-size: 20px;
+   
+    color:#fff;
+}
+p{
+    color:#fff;
+}
+h1{
+    color:#fff;
+}
+@media (min-width: 576px){
+    #fotodeperfil{
+        border-radius: 100%;
+        box-shadow:3px 3px 3px grey;
+    }
+}
+
+@media (max-width: 575px){
+    #fotodeperfil{
+        border-radius: 100%;
+        box-shadow:3px 3px 3px grey;
+        left:34%;
+    }
+}
+

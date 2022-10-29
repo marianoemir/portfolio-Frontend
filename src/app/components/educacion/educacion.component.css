@@ -1,0 +1,19 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.row{
+    background:#372948;
+    padding: 20px;
+    border:3px solid #aaa;
+}
+h1,h3 {
+    display:inline;
+    color:#fff
+}
+p{
+    color:#fff;
+}
+.textos{
+    color:#fff;
+}
+
+
+
