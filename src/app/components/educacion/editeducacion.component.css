@@ -1,0 +1,25 @@
+.cajadelabel{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:url(../images/../../../assets/edit.jpg);
+    background-size:cover;
+    background-position:center;
+    
+    }
+    
+    form{
+        color:#fff;
+        width:60vw;
+        margin-right: 20px;
+    }
+
+    @media (max-width: 575px){
+        form{
+            color:#fff;
+            width:80vw;
+            margin-right: 5px;
+        }
+    }
