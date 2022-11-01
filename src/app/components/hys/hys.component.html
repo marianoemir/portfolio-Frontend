@@ -1,11 +1,18 @@
-<div class="row">
+<div class="row" id="4">
 
     <h1>Hard & Soft skills</h1>
     <div class="col-lg-2">
-        <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged">Nueva Skill</button>
+        <button type="button" routerLink="/newskill" class="btn btn-outline-light" *ngIf="isLogged">Nueva Skill</button>
     </div>
-
-
+        <br>
+        <br>
+        <br>
+        <a href="#0">
+            <button class="btn btn-outline-warning">Volver a la barra de navegacion</button>
+        </a>
+        <br>
+        <br>
+        <br>
     <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" *ngFor="let skill of skill">
         <circle-progress 
         [percent]="(skill.porcentaje)" 
@@ -20,7 +27,7 @@
         [showSubtitle]="false" 
         [outerStrokeWidth]="16" 
         [innerStrokeWidth]="2" 
-        [outerStrokeColor]="'#78C000'"
+        [outerStrokeColor]="'#fff'"
         [innerStrokeColor]="'#C7E596'" 
         [animation]="true" 
         [animationDuration]="600">
@@ -28,14 +35,15 @@
 
         <div>
             <td *ngIf="isLogged">
-                <button class="btn btn-light" routerLink="/editskill/{{skill.id}}">
+                <button class="btn btn-outline-info" routerLink="/editskill/{{skill.id}}">
                     <i class="bi bi-pencil-fill"></i>editar</button>
             </td>
             <td *ngIf="isLogged">
-                <button class="btn btn-danger" (click)="delete(skill.id)">
+                <button class="btn btn-outline-danger" (click)="delete(skill.id)">
                     <i class="bi bi-trash-fill"></i>borrar</button>
             </td>
         </div>
         
     </div>
+    
 </div>

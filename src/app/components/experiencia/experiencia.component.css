@@ -1,6 +1,5 @@
-@import "~bootstrap-icons/font/bootstrap-icons.css";
 .row{
-    background:#372948;
+    background:#252138;
     padding: 20px;
     border:3px solid #aaa;
 }
@@ -12,7 +11,11 @@ p{
     color:#fff;
 }
 
-.textos{
-    color:#fff;
+.nombre{
+    color: #fff;
+}
+
+.descripcion{
+    color: #fff;
 }
 

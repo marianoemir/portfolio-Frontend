@@ -1,16 +1,19 @@
 div{
-    background-color:#251B37;
-    ;
+    background-color:#2E8382;
+    
+    
 }
 .container{
    display:flex;   
    justify-content:space-between;
    align-items:center;
+   width:100%;
+   border:3px solid #aaa;
 }
 
 /*Logo Argentina Programa*/
 #logoAP{
-    width: 120px;
+  width: 120px;
 }
 /*Estilo de Frase*/
 #frase {
@@ -34,7 +37,7 @@ div{
     50%{border-color:transparent}
 }
 .redes{
-  margin-right: 0.5em;
+  margin-left: 10px;
 }
 .redes img{ 
     width: 50px;
