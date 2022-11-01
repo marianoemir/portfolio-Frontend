@@ -21,12 +21,12 @@
                     </td>
                     <td class="textos">{{Educacion.descripcionE}}</td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-outline-info" routerLink="/editedu/{{Educacion.id}}">
-                            <i class="bi bi-pencil-fill btn-sm"></i> EDITAR</button>
+                        <button class="btn btn-outline-info botonedit" routerLink="/editedu/{{Educacion.id}}">
+                            <i class="bi bi-pencil-fill btn-sm"></i></button>
                     </td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-outline-danger" (click)="delete(Educacion.id)">
-                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                        <button class="btn btn-outline-danger botonedit" (click)="delete(Educacion.id)">
+                            <i class="bi bi-trash-fill"></i></button>
                     </td>
                 </tr>
                 <br>

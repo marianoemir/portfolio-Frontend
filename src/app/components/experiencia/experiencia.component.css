@@ -1,7 +1,7 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 .row{
     background:#252138;
-    padding: 20px;
+    padding: 15px;
     border:3px solid #aaa;
 }
 h1,h3 {
@@ -18,5 +18,11 @@ p{
 
 .descripcion{
     color: #fff;
+}
+@media (max-width: 575px){
+    .botonedit{
+        width:40px;
+    }
+    
 }
 

@@ -22,12 +22,12 @@
                     </td>
                     <td class="descripcion">{{Experiencia.descripcionE}}</td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-outline-info" routerLink="/editexp/{{Experiencia.id}}">
-                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                        <button class="btn btn-outline-info botonedit" routerLink="/editexp/{{Experiencia.id}}">
+                            <i class="bi bi-pencil-fill"></i></button>
                     </td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-outline-danger" (click)="delete(Experiencia.id)">
-                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                        <button class="btn btn-outline-danger botonedit" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash-fill"></i></button>
                     </td>
                 </tr>
                 <br>
